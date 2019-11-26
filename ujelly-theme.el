@@ -8,11 +8,15 @@
 (deftheme ujelly "The ujelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
-      (ujelly-fg "#ffffff")
-      (ujelly-bg (if (display-graphic-p) "#000000" nil))
+      ;; New colors for gf, bg, green-1 taken from github.com/chrismccord
+      ;; Inspiration to use this theme came after watching:
+      ;;   https://www.youtube.com/watch?v=3wAeFiGv_yE
+
+      (ujelly-fg "#dfdfdf")      ;; (ujelly-fg "#ffffff")
+      (ujelly-bg (if (display-graphic-p) "#171717" nil)) ;; (ujelly-bg "#000000")
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
-      (ujelly-green-1 "#447799")
+      (ujelly-green-1 "#ffb964") ;; (ujelly-green-1 "#447799")
       (ujelly-green-2 "#a8ff60")
       (ujelly-green-3 "#75b5aa")
       (ujelly-grey-0 "#888888")
