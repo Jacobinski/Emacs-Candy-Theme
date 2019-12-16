@@ -97,7 +97,7 @@
        `(flycheck-info ((,class (:background ,ujelly-grey-4))))
        `(flycheck-warning ((,class (:background ,ujelly-grey-4))))
        `(font-lock-builtin-face ((,class (:foreground ,ujelly-blue-0))))
-       `(font-lock-comment-face ((,class (:slant italic :foreground ,ujelly-grey-0))))
+       `(font-lock-comment-face ((,class (:foreground ,ujelly-grey-0))))
        `(font-lock-constant-face ((,class (:foreground ,ujelly-green-1))))
        `(font-lock-doc-face ((,class (:foreground ,ujelly-green-0))))
        `(font-lock-function-name-face ((,class (:foreground ,ujelly-yellow-0))))
