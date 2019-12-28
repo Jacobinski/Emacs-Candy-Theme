@@ -40,6 +40,8 @@
       (custom-theme-set-faces
        'ujelly
        `(default ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
+       `(link ((,class (:foreground ,ujelly-blue-0 :underline t :weight bold))))
+       `(link-visited ((,class (:foreground ,ujelly-blue-0 :underline t :weight normal))))
        `(alchemist-test--failed-face ((,class (:foreground ,ujelly-red-0))))
        `(alchemist-test--success-face ((,class (:foreground ,ujelly-green-0))))
        `(avy-lead-face ((,class (:foreground ,ujelly-fg :background ,ujelly-red-0))))
