@@ -26,7 +26,6 @@
       (ujelly-grey-4 "#363636")
       (ujelly-grey-5 "#444444")
       (ujelly-orange-0 "#ffb964")
-      (ujelly-orange-1 "#f4bf75")
       (ujelly-purple-0 "#8197bf")
       (ujelly-purple-1 "#474e90")
       (ujelly-purple-2 "#cd00cd")
