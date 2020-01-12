@@ -12,8 +12,8 @@
       ;; Inspiration to use this theme came after watching:
       ;;   https://www.youtube.com/watch?v=3wAeFiGv_yE
 
-      (ujelly-fg "#dfdfdf")      ;; (ujelly-fg "#ffffff")
-      (ujelly-bg (if (display-graphic-p) "#191919" nil)) ;; (ujelly-bg "#000000")
+      (ujelly-fg "#e6e6e6")
+      (ujelly-bg (if (display-graphic-p) "#272a30" nil))
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#ffb964") ;; (ujelly-green-1 "#447799")
@@ -23,7 +23,7 @@
       (ujelly-grey-1 "#7f7f7f")
       (ujelly-grey-2 "#151515")
       (ujelly-grey-3 "#1c1c1c")
-      (ujelly-grey-4 "#363636")
+      (ujelly-grey-4 "#616161")
       (ujelly-grey-5 "#444444")
       (ujelly-orange-0 "#ffb964")
       (ujelly-purple-0 "#8197bf")
