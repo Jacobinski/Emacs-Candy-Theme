@@ -13,7 +13,7 @@
       ;;   https://www.youtube.com/watch?v=3wAeFiGv_yE
 
       (ujelly-fg "#e6e6e6")
-      (ujelly-bg (if (display-graphic-p) "#272a30" nil))
+      (ujelly-bg (if (display-graphic-p) "#1f2228" nil))
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
@@ -30,7 +30,7 @@
       (ujelly-purple-1 "#474e90")
       (ujelly-purple-2 "#cd00cd")
       (ujelly-purple-3 "#aa759f")
-      (ujelly-red-0 "#de5577")
+      (ujelly-red-0 "#f57470")
       (ujelly-red-1 "#dd0093")
       (ujelly-red-2 "#de5577")
       (ujelly-red-3 "#ff73fd")
