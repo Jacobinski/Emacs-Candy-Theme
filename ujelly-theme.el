@@ -177,7 +177,7 @@
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mmm-default-submode-face ((,class (:background ,ujelly-bg))))
-       `(mode-line ((,class (:foreground ,ujelly-fg :background "#1f2228"))))
+       `(mode-line ((,class (:foreground ,ujelly-fg :background "#2e3137"))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
        `(org-date ((,class (:foreground ,ujelly-grey-0))))
