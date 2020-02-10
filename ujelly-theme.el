@@ -13,7 +13,7 @@
       ;;   https://www.youtube.com/watch?v=3wAeFiGv_yE
 
       (ujelly-fg "#e6e6e6")
-      (ujelly-bg (if (display-graphic-p) "#1f2228" nil))
+      (ujelly-bg (if (display-graphic-p) "#24272d" nil))
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
