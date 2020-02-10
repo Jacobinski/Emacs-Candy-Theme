@@ -74,6 +74,7 @@
        `(diredp-read-priv ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(diredp-symlink ((,class (:foreground ,ujelly-red-3))))
        `(diredp-write-priv ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
+       `(doom-modeline-buffer-modified ((,class (:foreground ,ujelly-red-2))))
        `(ediff-odd-diff-A ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
        `(ediff-odd-diff-B ((,class (:foreground ,ujelly-green-0 :background ,ujelly-grey-2))))
        `(emmet-preview-output ((,class (:background ,ujelly-purple-1))))
@@ -222,7 +223,8 @@
        `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
        `(which-key-group-description-face ((,class (:foreground ,ujelly-grey-0))))
        `(which-key-key-face ((,class (:foreground ,ujelly-green-0))))
-       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
+       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))
+       ))
 
 ;;;###autoload
 (when load-file-name
