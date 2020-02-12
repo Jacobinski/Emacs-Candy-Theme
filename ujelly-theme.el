@@ -13,7 +13,7 @@
       ;;   https://www.youtube.com/watch?v=3wAeFiGv_yE
 
       (ujelly-fg "#e6e6e6")
-      (ujelly-bg (if (display-graphic-p) "#24272d" nil))
+      (ujelly-bg (if (display-graphic-p) "#1e1e1e" nil))  ; Highlight: 252525
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
@@ -178,7 +178,7 @@
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mmm-default-submode-face ((,class (:background ,ujelly-bg))))
-       `(mode-line ((,class (:foreground ,ujelly-fg :background "#2e3137"))))
+       `(mode-line ((,class (:foreground ,ujelly-fg :background "#161616"))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
        `(org-date ((,class (:foreground ,ujelly-grey-0))))
